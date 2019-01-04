@@ -1,0 +1,21 @@
+# Created on 2018-10-29T16:17:08.732
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-29T16:17:09.599
+Unexpected IOException with stream: 2018-10-29 16:17:09 Response:{"status":32,"value":"Argument was an invalid selector (e.g. XPath/CSS).","sessionId":"87b0d4f8-4c42-446a-8f5e-d79102c44af2"}
+
+
+# Created on 2018-10-29T16:17:11.601
+Unexpected IOException with stream: attempt to search the element for 3 times
+
+
+# Created on 2018-10-29T16:17:11.604
+Unexpected IOException with stream: 2018-10-29 16:17:11 Request:http://localhost:3456/wd/hub/session/87b0d4f8-4c42-446a-8f5e-d79102c44af2/element:{"using":"name","value":"平均分"}
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <parameter name="elementTimeInterval" value="2000"/>
+  <parameter name="elementTimeout" value="30000"/>
+  <listeners>
+    <listener class-name="extentx.ExtentTestNGITestListener"/>
+  </listeners>
+  <test name="testPersonal">
+    <parameter name="elementTimeInterval" value="2000"/>
+    <parameter name="elementTimeout" value="30000"/>
+    <classes>
+      <class name="com.javademo.cases.testClueSearch"/>
+    </classes>
+  </test> <!-- testPersonal -->
+  <test name="testPersonal(failed)">
+    <parameter name="elementTimeInterval" value="2000"/>
+    <parameter name="elementTimeout" value="30000"/>
+    <classes>
+      <class name="com.javademo.cases.testClueSearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="cluesearch_13"/>
+          <include name="cluesearch_17"/>
+          <include name="cluesearch_3"/>
+          <include name="cluesearch_5"/>
+          <include name="setUp"/>
+          <include name="cluesearch_2"/>
+          <include name="cluesearch_4"/>
+          <include name="cluesearch_11"/>
+          <include name="cluesearch_12"/>
+          <include name="cluesearch_10"/>
+          <include name="cluesearch_7"/>
+          <include name="cluesearch_6"/>
+          <include name="cluesearch_8"/>
+        </methods>
+      </class> <!-- com.javademo.cases.testClueSearch -->
+    </classes>
+  </test> <!-- testPersonal(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

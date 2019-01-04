@@ -1,0 +1,77 @@
+# Created on 2018-10-23T16:17:51.025
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-23T16:17:51.602
+Unexpected IOException with stream: 2018-10-23 16:17:51 Response:{"sessionId":"46e81aff-e78a-44d8-a7dc-9aa82982410b","value":[],"status":0}
+
+
+# Created on 2018-10-23T16:17:51.606
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/bottom_discuss_layout_ll[0]
+
+
+# Created on 2018-10-23T16:17:51.809
+Unexpected IOException with stream: attempt to search the element for 3 times
+
+
+# Created on 2018-10-23T16:17:51.813
+Unexpected IOException with stream: 2018-10-23 16:17:51 Request:http://localhost:3456/wd/hub/session/46e81aff-e78a-44d8-a7dc-9aa82982410b/elements:{"using":"id","value":"com.xbcx.gdwx3:id/bottom_discuss_layout_ll"}
+
+
+# Created on 2018-10-23T16:17:51.946
+Unexpected IOException with stream: 2018-10-23 16:17:51 Response:{"sessionId":"46e81aff-e78a-44d8-a7dc-9aa82982410b","value":[],"status":0}
+
+
+# Created on 2018-10-23T16:17:51.950
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/bottom_discuss_layout_ll[0]
+
+
+# Created on 2018-10-23T16:17:52.151
+Unexpected IOException with stream: attempt to search the element for 4 times
+
+
+# Created on 2018-10-23T16:17:52.153
+Unexpected IOException with stream: 2018-10-23 16:17:52 Request:http://localhost:3456/wd/hub/session/46e81aff-e78a-44d8-a7dc-9aa82982410b/elements:{"using":"id","value":"com.xbcx.gdwx3:id/bottom_discuss_layout_ll"}
+
+
+# Created on 2018-10-23T16:17:52.312
+Unexpected IOException with stream: 2018-10-23 16:17:52 Response:{"sessionId":"46e81aff-e78a-44d8-a7dc-9aa82982410b","value":[],"status":0}
+
+
+# Created on 2018-10-23T16:17:52.314
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/bottom_discuss_layout_ll[0]
+
+
+# Created on 2018-10-23T16:17:52.517
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/bottom_discuss_layout_ll
+
+
+# Created on 2018-10-23T16:17:52.518
+Unexpected IOException: 8,1,com.javademo.cases.testHome,testArticleComment(com.javademo.cases.testHome),null,null,null,null,testHome.testArticleComment:132 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.javademo.cases.testHome.testArticleComment(testHome.java:132)\000A
+
+
+# Created on 2018-10-23T16:17:52.529
+Unexpected IOException: 5,1,com.javademo.cases.testHome,testClickBanner(com.javademo.cases.testHome),com.javademo.cases.testHome,null,null
+
+
+# Created on 2018-10-23T16:17:52.532
+Unexpected IOException with stream: attempt to search the element for 0 times
+
+
+# Created on 2018-10-23T16:17:52.534
+Unexpected IOException with stream: 2018-10-23 16:17:52 Request:http://localhost:3456/wd/hub/session/46e81aff-e78a-44d8-a7dc-9aa82982410b/elements:{"using":"id","value":"com.xbcx.gdwx3:id/banner_image"}
+
+
+# Created on 2018-10-23T16:17:52.637
+Unexpected IOException with stream: 2018-10-23 16:17:52 Response:{"sessionId":"46e81aff-e78a-44d8-a7dc-9aa82982410b","value":[],"status":0}
+
+
+# Created on 2018-10-23T16:17:52.638
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/banner_image[0]
+
+

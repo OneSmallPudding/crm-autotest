@@ -1,0 +1,212 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 52, Failures: 52, Errors: 0, Skipped: 0, Time elapsed: 43.849 s <<< FAILURE! - in TestSuite
+order_8(com.javademo.cases.testOrder2)  Time elapsed: 2.652 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_8(testOrder2.java:14)
+
+order_27(com.javademo.cases.testOrder2)  Time elapsed: 0.497 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_27(testOrder2.java:20)
+
+order_105(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_105(testOrder2.java:26)
+
+order_106(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_106(testOrder2.java:32)
+
+order_107(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_107(testOrder2.java:39)
+
+order_109(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_109(testOrder2.java:46)
+
+order_110(com.javademo.cases.testOrder2)  Time elapsed: 0.502 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_110(testOrder2.java:53)
+
+order_111(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_111(testOrder2.java:60)
+
+order_112(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_112(testOrder2.java:67)
+
+order_1(com.javademo.cases.testOrder2)  Time elapsed: 2.567 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_1(testOrder2.java:73)
+
+order_113(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_113(testOrder2.java:80)
+
+order_38_1(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_38_1(testOrder2.java:86)
+
+order_114(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_114(testOrder2.java:93)
+
+order_115(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_115(testOrder2.java:100)
+
+order_38_2(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_38_2(testOrder2.java:106)
+
+order_116(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_116(testOrder2.java:112)
+
+order_117(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_117(testOrder2.java:119)
+
+order_46(com.javademo.cases.testOrder2)  Time elapsed: 0.502 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_46(testOrder2.java:125)
+
+order_118(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_118(testOrder2.java:131)
+
+order_119(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_119(testOrder2.java:138)
+
+order_61(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_61(testOrder2.java:144)
+
+order_122(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_122(testOrder2.java:150)
+
+order_123(com.javademo.cases.testOrder2)  Time elapsed: 0.502 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_123(testOrder2.java:157)
+
+order_50(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_50(testOrder2.java:163)
+
+order_58(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_58(testOrder2.java:169)
+
+order_120(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_120(testOrder2.java:175)
+
+order_121(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_121(testOrder2.java:182)
+
+order_1_1(com.javademo.cases.testOrder2)  Time elapsed: 2.549 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_1_1(testOrder2.java:189)
+
+order_38_3(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_38_3(testOrder2.java:195)
+
+order_46_1(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_46_1(testOrder2.java:201)
+
+order_124(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_124(testOrder2.java:208)
+
+order_126(com.javademo.cases.testOrder2)  Time elapsed: 0.502 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_126(testOrder2.java:214)
+
+order_46_2(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_46_2(testOrder2.java:220)
+
+order_125(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_125(testOrder2.java:226)
+
+order_38_4(com.javademo.cases.testOrder2)  Time elapsed: 0.502 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_38_4(testOrder2.java:232)
+
+order_46_3(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_46_3(testOrder2.java:239)
+
+order_127(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_127(testOrder2.java:246)
+
+order_46_4(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_46_4(testOrder2.java:253)
+
+order_128(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_128(testOrder2.java:259)
+
+order_129(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_129(testOrder2.java:266)
+
+order_131(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_131(testOrder2.java:273)
+
+order_46_5(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_46_5(testOrder2.java:280)
+
+order_58_1(com.javademo.cases.testOrder2)  Time elapsed: 0.504 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_58_1(testOrder2.java:286)
+
+order_132(com.javademo.cases.testOrder2)  Time elapsed: 0.502 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_132(testOrder2.java:293)
+
+order_46_6(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_46_6(testOrder2.java:301)
+
+order_58_2(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_58_2(testOrder2.java:307)
+
+order_133(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_133(testOrder2.java:313)
+
+order_58_3(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_58_3(testOrder2.java:319)
+
+order_134(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_134(testOrder2.java:325)
+
+order_135(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_135(testOrder2.java:331)
+
+order_136(com.javademo.cases.testOrder2)  Time elapsed: 0.5 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_136(testOrder2.java:337)
+
+order_130(com.javademo.cases.testOrder2)  Time elapsed: 0.501 s  <<< FAILURE!
+java.lang.IllegalArgumentException: Invalid key code
+	at com.javademo.cases.testOrder2.order_130(testOrder2.java:344)
+

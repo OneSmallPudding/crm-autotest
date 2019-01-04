@@ -1,0 +1,85 @@
+# Created on 2018-10-29T09:30:41.078
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-29T09:30:41.781
+Unexpected IOException with stream: ----->1. 进入 getConnection <----------
+
+
+# Created on 2018-10-29T09:30:41.804
+Unexpected IOException with stream: 2018-10-29 09:30:41 Request:http://localhost:3456/wd/hub/session/1038e040-e1c9-4e9d-adb2-133bcee02444/elements:{"using":"id","value":"com.xbcx.gdwx3:id/rl_mine_sign"}
+
+
+# Created on 2018-10-29T09:30:41.835
+Unexpected IOException with stream: 2018-10-29 09:30:41 Response:{"status":0,"value":[{"ELEMENT":"45"}],"sessionId":"1038e040-e1c9-4e9d-adb2-133bcee02444"}
+
+
+# Created on 2018-10-29T09:30:41.839
+Unexpected IOException with stream: 2018-10-29 09:30:41 Request:http://localhost:3456/wd/hub/session/1038e040-e1c9-4e9d-adb2-133bcee02444/elements:{"using":"id","value":"com.xbcx.gdwx3:id/rl_mine_sign"}
+
+
+# Created on 2018-10-29T09:30:41.911
+Unexpected IOException with stream: 2018-10-29 09:30:41 Response:{"status":0,"value":[{"ELEMENT":"46"}],"sessionId":"1038e040-e1c9-4e9d-adb2-133bcee02444"}
+
+
+# Created on 2018-10-29T09:30:41.914
+Unexpected IOException with stream: 2018-10-29 09:30:41 Request:http://localhost:3456/wd/hub/session/1038e040-e1c9-4e9d-adb2-133bcee02444/element/46/click:{}
+
+
+# Created on 2018-10-29T09:30:42.012
+Unexpected IOException with stream: 2018-10-29 09:30:42 Response:{"status":0,"sessionId":"1038e040-e1c9-4e9d-adb2-133bcee02444"}
+
+
+# Created on 2018-10-29T09:30:42.014
+Unexpected IOException with stream: 2018-10-29 09:30:42,点击:我的页面签到|true|
+
+
+
+# Created on 2018-10-29T09:30:42.017
+Unexpected IOException with stream: 2018-10-29 09:30:42,点击:我的页面签到|true|
+
+
+
+# Created on 2018-10-29T09:30:42.019
+Unexpected IOException with stream: 2018-10-29 09:30:42 Request:http://localhost:3456/wd/hub/session/1038e040-e1c9-4e9d-adb2-133bcee02444/elements:{"using":"id","value":"com.xbcx.gdwx3:id/btn_sign"}
+
+
+# Created on 2018-10-29T09:30:43.198
+Unexpected IOException with stream: 2018-10-29 09:30:43 Response:{"status":0,"value":[{"ELEMENT":"47"}],"sessionId":"1038e040-e1c9-4e9d-adb2-133bcee02444"}
+
+
+# Created on 2018-10-29T09:30:43.202
+Unexpected IOException with stream: 2018-10-29 09:30:43 Request:http://localhost:3456/wd/hub/session/1038e040-e1c9-4e9d-adb2-133bcee02444/elements:{"using":"id","value":"com.xbcx.gdwx3:id/btn_sign"}
+
+
+# Created on 2018-10-29T09:30:43.311
+Unexpected IOException with stream: 2018-10-29 09:30:43 Response:{"status":0,"value":[{"ELEMENT":"48"}],"sessionId":"1038e040-e1c9-4e9d-adb2-133bcee02444"}
+
+
+# Created on 2018-10-29T09:30:43.317
+Unexpected IOException with stream: 2018-10-29 09:30:43 Request:http://localhost:3456/wd/hub/session/1038e040-e1c9-4e9d-adb2-133bcee02444/element/48/click:{}
+
+
+# Created on 2018-10-29T09:30:43.450
+Unexpected IOException with stream: 2018-10-29 09:30:43 Response:{"status":0,"sessionId":"1038e040-e1c9-4e9d-adb2-133bcee02444"}
+
+
+# Created on 2018-10-29T09:30:43.451
+Unexpected IOException with stream: 2018-10-29 09:30:43,点击:签到页面|true|
+
+
+
+# Created on 2018-10-29T09:30:43.453
+Unexpected IOException with stream: 2018-10-29 09:30:43,点击:签到页面|true|
+
+
+
+# Created on 2018-10-29T09:30:43.456
+Unexpected IOException with stream: 2018-10-29 09:30:43 Request:http://localhost:3456/wd/hub/session/1038e040-e1c9-4e9d-adb2-133bcee02444/elements:{"using":"id","value":"com.xbcx.gdwx3:id/btn_sign_share"}
+
+

@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 295.663 s <<< FAILURE! - in TestSuite
+cluesearch_2(com.javademo.cases.testClueSearch)  Time elapsed: 8.818 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_2(testClueSearch.java:20)
+
+cluesearch_3(com.javademo.cases.testClueSearch)  Time elapsed: 25.453 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.javademo.cases.testClueSearch.cluesearch_3(testClueSearch.java:27)
+
+cluesearch_4(com.javademo.cases.testClueSearch)  Time elapsed: 8.944 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_4(testClueSearch.java:32)
+
+cluesearch_5(com.javademo.cases.testClueSearch)  Time elapsed: 11.048 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_5(testClueSearch.java:38)
+
+cluesearch_6(com.javademo.cases.testClueSearch)  Time elapsed: 8.821 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_6(testClueSearch.java:44)
+
+cluesearch_7(com.javademo.cases.testClueSearch)  Time elapsed: 13.686 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_7(testClueSearch.java:50)
+
+cluesearch_8(com.javademo.cases.testClueSearch)  Time elapsed: 6.632 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_8(testClueSearch.java:56)
+
+cluesearch_10(com.javademo.cases.testClueSearch)  Time elapsed: 12.976 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_10(testClueSearch.java:69)
+
+cluesearch_11(com.javademo.cases.testClueSearch)  Time elapsed: 18.833 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.javademo.cases.testClueSearch.cluesearch_11(testClueSearch.java:77)
+
+cluesearch_12(com.javademo.cases.testClueSearch)  Time elapsed: 12.91 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_12(testClueSearch.java:83)
+
+cluesearch_13(com.javademo.cases.testClueSearch)  Time elapsed: 14.972 s  <<< FAILURE!
+java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at com.javademo.cases.testClueSearch.cluesearch_13(testClueSearch.java:90)
+
+cluesearch_17(com.javademo.cases.testClueSearch)  Time elapsed: 9.281 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.javademo.cases.testClueSearch.cluesearch_17(testClueSearch.java:112)
+

@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-failed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>C:\Users\Administrator\Desktop\1\macaca-crm-autotest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods, 12 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_10">cluesearch_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_11">cluesearch_11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_12">cluesearch_12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_13">cluesearch_13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_17">cluesearch_17</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_2">cluesearch_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_3">cluesearch_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_4">cluesearch_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_5">cluesearch_5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_6">cluesearch_6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_7">cluesearch_7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_8">cluesearch_8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_1">cluesearch_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_15">cluesearch_15</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_16">cluesearch_16</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testClueSearch" hash-for-method="cluesearch_9">cluesearch_9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.javademo.cases.testClueSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_10">
+                  </a> <!-- cluesearch_10 -->
+                  <span class="method-name">cluesearch_10</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.setValue(Element.java:61)
+	at macaca.client.commands.Element.sendKeys(Element.java:50)
+	at com.javademo.pages.GaodunCluePage.cluesearch_10(GaodunCluePage.java:1180)
+	at com.javademo.cases.testClueSearch.cluesearch_10(testClueSearch.java:69)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_11">
+                  </a> <!-- cluesearch_11 -->
+                  <span class="method-name">cluesearch_11</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.javademo.cases.testClueSearch.cluesearch_11(testClueSearch.java:77)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_12">
+                  </a> <!-- cluesearch_12 -->
+                  <span class="method-name">cluesearch_12</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_12(GaodunCluePage.java:1248)
+	at com.javademo.cases.testClueSearch.cluesearch_12(testClueSearch.java:83)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_13">
+                  </a> <!-- cluesearch_13 -->
+                  <span class="method-name">cluesearch_13</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_13(GaodunCluePage.java:1282)
+	at com.javademo.cases.testClueSearch.cluesearch_13(testClueSearch.java:90)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_17">
+                  </a> <!-- cluesearch_17 -->
+                  <span class="method-name">cluesearch_17</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.javademo.cases.testClueSearch.cluesearch_17(testClueSearch.java:112)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_2">
+                  </a> <!-- cluesearch_2 -->
+                  <span class="method-name">cluesearch_2</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_1_4(GaodunCluePage.java:933)
+	at com.javademo.cases.testClueSearch.cluesearch_2(testClueSearch.java:20)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_3">
+                  </a> <!-- cluesearch_3 -->
+                  <span class="method-name">cluesearch_3</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.javademo.cases.testClueSearch.cluesearch_3(testClueSearch.java:27)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_4">
+                  </a> <!-- cluesearch_4 -->
+                  <span class="method-name">cluesearch_4</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_1_4(GaodunCluePage.java:933)
+	at com.javademo.cases.testClueSearch.cluesearch_4(testClueSearch.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_5">
+                  </a> <!-- cluesearch_5 -->
+                  <span class="method-name">cluesearch_5</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_5_6(GaodunCluePage.java:1003)
+	at com.javademo.cases.testClueSearch.cluesearch_5(testClueSearch.java:38)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_6">
+                  </a> <!-- cluesearch_6 -->
+                  <span class="method-name">cluesearch_6</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_5_6(GaodunCluePage.java:1001)
+	at com.javademo.cases.testClueSearch.cluesearch_6(testClueSearch.java:44)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_7">
+                  </a> <!-- cluesearch_7 -->
+                  <span class="method-name">cluesearch_7</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_7(GaodunCluePage.java:1043)
+	at com.javademo.cases.testClueSearch.cluesearch_7(testClueSearch.java:50)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_8">
+                  </a> <!-- cluesearch_8 -->
+                  <span class="method-name">cluesearch_8</span>
+                  <div class="stack-trace">java.lang.Exception: An element command could not be completed because the element is not visible on the page.
+	at macaca.client.common.Utils.handleStatus(Utils.java:162)
+	at macaca.client.common.Utils.executeRequest(Utils.java:71)
+	at macaca.client.common.Utils.postRequest(Utils.java:119)
+	at macaca.client.common.Utils.request(Utils.java:140)
+	at macaca.client.commands.Element.click(Element.java:75)
+	at com.javademo.pages.GaodunCluePage.cluesearch_8(GaodunCluePage.java:1089)
+	at com.javademo.cases.testClueSearch.cluesearch_8(testClueSearch.java:56)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.javademo.cases.testClueSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_1">
+                  </a> <!-- cluesearch_1 -->
+                  <span class="method-name">cluesearch_1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_15">
+                  </a> <!-- cluesearch_15 -->
+                  <span class="method-name">cluesearch_15</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_16">
+                  </a> <!-- cluesearch_16 -->
+                  <span class="method-name">cluesearch_16</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cluesearch_9">
+                  </a> <!-- cluesearch_9 -->
+                  <span class="method-name">cluesearch_9</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Administrator\Desktop\1\macaca-crm-autotest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;extentx.ExtentTestNGITestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;testPersonal&quot;&gt;
+    &lt;parameter name=&quot;elementTimeInterval&quot; value=&quot;2000&quot;/&gt;
+    &lt;parameter name=&quot;elementTimeout&quot; value=&quot;30000&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.javademo.cases.testClueSearch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testPersonal --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testPersonal (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'cluesearch_1')
+data.setCell(0, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(0, 3, 57795);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'cluesearch_3')
+data.setCell(1, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(1, 3, 25452);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'cluesearch_9')
+data.setCell(2, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(2, 3, 23923);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'cluesearch_15')
+data.setCell(3, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(3, 3, 21494);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'cluesearch_16')
+data.setCell(4, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(4, 3, 20605);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'cluesearch_11')
+data.setCell(5, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(5, 3, 18833);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'cluesearch_13')
+data.setCell(6, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(6, 3, 14971);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'cluesearch_7')
+data.setCell(7, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(7, 3, 13685);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'cluesearch_10')
+data.setCell(8, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(8, 3, 12971);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'cluesearch_12')
+data.setCell(9, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(9, 3, 12909);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'cluesearch_5')
+data.setCell(10, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(10, 3, 11049);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'cluesearch_17')
+data.setCell(11, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(11, 3, 9281);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'cluesearch_4')
+data.setCell(12, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(12, 3, 8954);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'cluesearch_6')
+data.setCell(13, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(13, 3, 8822);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'cluesearch_2')
+data.setCell(14, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(14, 3, 8800);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'cluesearch_8')
+data.setCell(15, 2, 'com.javademo.cases.testClueSearch')
+data.setCell(15, 3, 6631);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.javademo.cases.testClueSearch</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">cluesearch_1</span>
+                <span class="method-start">12618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_2</span>
+                <span class="method-start">70467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_3</span>
+                <span class="method-start">79316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_4</span>
+                <span class="method-start">104800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_5</span>
+                <span class="method-start">113767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_6</span>
+                <span class="method-start">124840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_7</span>
+                <span class="method-start">133671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_8</span>
+                <span class="method-start">147366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cluesearch_9</span>
+                <span class="method-start">154006 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_10</span>
+                <span class="method-start">177938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_11</span>
+                <span class="method-start">190927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_12</span>
+                <span class="method-start">209768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_13</span>
+                <span class="method-start">222688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cluesearch_15</span>
+                <span class="method-start">237670 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">cluesearch_16</span>
+                <span class="method-start">259169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">cluesearch_17</span>
+                <span class="method-start">279778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">289078 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

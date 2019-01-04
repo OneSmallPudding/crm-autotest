@@ -1,0 +1,46 @@
+# Created on 2019-01-02T16:54:06.610
+org.testng.TestNGException: 
+An exception occurred in static initialization of class extentx.ExtentTestNGITestListener
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:63)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:929)
+	at org.testng.TestNG.run(TestNG.java:1037)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+Caused by: java.lang.ExceptionInInitializerError
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at org.testng.internal.ClassHelper.newInstance(ClassHelper.java:50)
+	... 9 more
+Caused by: com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=UNKNOWN, servers=[{address=127.0.0.1:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.ConnectException: Connection refused: connect}}]
+	at com.mongodb.connection.BaseCluster.createTimeoutException(BaseCluster.java:369)
+	at com.mongodb.connection.BaseCluster.selectServer(BaseCluster.java:101)
+	at com.mongodb.binding.ClusterBinding$ClusterBindingConnectionSource.<init>(ClusterBinding.java:75)
+	at com.mongodb.binding.ClusterBinding$ClusterBindingConnectionSource.<init>(ClusterBinding.java:71)
+	at com.mongodb.binding.ClusterBinding.getReadConnectionSource(ClusterBinding.java:63)
+	at com.mongodb.operation.OperationHelper.withConnection(OperationHelper.java:210)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:482)
+	at com.mongodb.operation.FindOperation.execute(FindOperation.java:79)
+	at com.mongodb.Mongo.execute(Mongo.java:772)
+	at com.mongodb.Mongo$2.execute(Mongo.java:759)
+	at com.mongodb.FindIterableImpl$FindOperationIterable.first(FindIterableImpl.java:207)
+	at com.mongodb.FindIterableImpl.first(FindIterableImpl.java:148)
+	at com.aventstack.extentreports.reporter.ExtentXReporter.setupProject(ExtentXReporter.java:204)
+	at com.aventstack.extentreports.reporter.ExtentXReporter.start(ExtentXReporter.java:172)
+	at com.aventstack.extentreports.Report.attach(Report.java:54)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:580)
+	at com.aventstack.extentreports.ExtentReports.attachReporter(ExtentReports.java:68)
+	at extentx.ExtentManager.createInstance(ExtentManager.java:22)
+	at extentx.ExtentManager.getInstance(ExtentManager.java:14)
+	at extentx.ExtentTestNGITestListener.<clinit>(ExtentTestNGITestListener.java:14)
+	... 15 more
+
+

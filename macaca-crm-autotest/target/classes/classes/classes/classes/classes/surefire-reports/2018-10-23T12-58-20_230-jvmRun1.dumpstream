@@ -1,0 +1,141 @@
+# Created on 2018-10-23T12:58:57.836
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-23T12:58:58.385
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/bottom_discuss_layout_ll
+
+
+# Created on 2018-10-23T12:58:58.387
+Unexpected IOException: 8,1,com.javademo.cases.testHome,testArticleComment(com.javademo.cases.testHome),null,null,null,null,testHome.testArticleComment:132 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.javademo.cases.testHome.testArticleComment(testHome.java:132)\000A
+
+
+# Created on 2018-10-23T12:58:58.397
+Unexpected IOException: 5,1,com.javademo.cases.testHome,testClickBanner(com.javademo.cases.testHome),com.javademo.cases.testHome,null,null
+
+
+# Created on 2018-10-23T12:58:58.401
+Unexpected IOException with stream: attempt to search the element for 0 times
+
+
+# Created on 2018-10-23T12:58:58.403
+Unexpected IOException with stream: 2018-10-23 12:58:58 Request:http://localhost:3456/wd/hub/session/82c7228d-3a9f-422f-ad6a-d2715665cfa2/elements:{"using":"id","value":"com.xbcx.gdwx3:id/banner_image"}
+
+
+# Created on 2018-10-23T12:58:58.428
+Unexpected IOException with stream: 2018-10-23 12:58:58 Response:{"status":0,"value":[],"sessionId":"82c7228d-3a9f-422f-ad6a-d2715665cfa2"}
+
+
+# Created on 2018-10-23T12:58:58.429
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/banner_image[0]
+
+
+# Created on 2018-10-23T12:58:58.633
+Unexpected IOException with stream: attempt to search the element for 1 times
+
+
+# Created on 2018-10-23T12:58:58.636
+Unexpected IOException with stream: 2018-10-23 12:58:58 Request:http://localhost:3456/wd/hub/session/82c7228d-3a9f-422f-ad6a-d2715665cfa2/elements:{"using":"id","value":"com.xbcx.gdwx3:id/banner_image"}
+
+
+# Created on 2018-10-23T12:58:58.671
+Unexpected IOException with stream: 2018-10-23 12:58:58 Response:{"status":0,"value":[],"sessionId":"82c7228d-3a9f-422f-ad6a-d2715665cfa2"}
+
+
+# Created on 2018-10-23T12:58:58.672
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/banner_image[0]
+
+
+# Created on 2018-10-23T12:58:58.874
+Unexpected IOException with stream: attempt to search the element for 2 times
+
+
+# Created on 2018-10-23T12:58:58.878
+Unexpected IOException with stream: 2018-10-23 12:58:58 Request:http://localhost:3456/wd/hub/session/82c7228d-3a9f-422f-ad6a-d2715665cfa2/elements:{"using":"id","value":"com.xbcx.gdwx3:id/banner_image"}
+
+
+# Created on 2018-10-23T12:58:58.923
+Unexpected IOException with stream: 2018-10-23 12:58:58 Response:{"status":0,"value":[],"sessionId":"82c7228d-3a9f-422f-ad6a-d2715665cfa2"}
+
+
+# Created on 2018-10-23T12:58:58.925
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/banner_image[0]
+
+
+# Created on 2018-10-23T12:58:59.128
+Unexpected IOException with stream: attempt to search the element for 3 times
+
+
+# Created on 2018-10-23T12:58:59.133
+Unexpected IOException with stream: 2018-10-23 12:58:59 Request:http://localhost:3456/wd/hub/session/82c7228d-3a9f-422f-ad6a-d2715665cfa2/elements:{"using":"id","value":"com.xbcx.gdwx3:id/banner_image"}
+
+
+# Created on 2018-10-23T12:58:59.160
+Unexpected IOException with stream: 2018-10-23 12:58:59 Response:{"status":0,"value":[],"sessionId":"82c7228d-3a9f-422f-ad6a-d2715665cfa2"}
+
+
+# Created on 2018-10-23T12:58:59.161
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/banner_image[0]
+
+
+# Created on 2018-10-23T12:58:59.364
+Unexpected IOException with stream: attempt to search the element for 4 times
+
+
+# Created on 2018-10-23T12:58:59.369
+Unexpected IOException with stream: 2018-10-23 12:58:59 Request:http://localhost:3456/wd/hub/session/82c7228d-3a9f-422f-ad6a-d2715665cfa2/elements:{"using":"id","value":"com.xbcx.gdwx3:id/banner_image"}
+
+
+# Created on 2018-10-23T12:58:59.415
+Unexpected IOException with stream: 2018-10-23 12:58:59 Response:{"status":0,"value":[],"sessionId":"82c7228d-3a9f-422f-ad6a-d2715665cfa2"}
+
+
+# Created on 2018-10-23T12:58:59.416
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/banner_image[0]
+
+
+# Created on 2018-10-23T12:58:59.617
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/banner_image
+
+
+# Created on 2018-10-23T12:58:59.618
+Unexpected IOException: 8,1,com.javademo.cases.testHome,testClickBanner(com.javademo.cases.testHome),null,null,null,null,testHome.testClickBanner:153 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.javademo.cases.testHome.testClickBanner(testHome.java:153)\000A
+
+
+# Created on 2018-10-23T12:58:59.628
+Unexpected IOException: 5,1,com.javademo.cases.testHome,testPortalGroupClick(com.javademo.cases.testHome),com.javademo.cases.testHome,null,null
+
+
+# Created on 2018-10-23T12:58:59.765
+Unexpected IOException with stream: ----->1. 进入 getConnection <----------
+
+
+# Created on 2018-10-23T12:58:59.779
+Unexpected IOException with stream: attempt to search the element for 1 times
+
+
+# Created on 2018-10-23T12:58:59.781
+Unexpected IOException with stream: 2018-10-23 12:58:59 Request:http://localhost:3456/wd/hub/session/82c7228d-3a9f-422f-ad6a-d2715665cfa2/element:{"using":"name","value":"直播"}
+
+
+# Created on 2018-10-23T12:58:59.809
+Unexpected IOException with stream: 2018-10-23 12:58:59 Response:{"status":32,"value":"Argument was an invalid selector (e.g. XPath/CSS).","sessionId":"82c7228d-3a9f-422f-ad6a-d2715665cfa2"}
+
+
+# Created on 2018-10-23T12:59:00.010
+Unexpected IOException with stream: attempt to search the element for 2 times
+
+
+# Created on 2018-10-23T12:59:00.012
+Unexpected IOException with stream: 2018-10-23 12:59:00 Request:http://localhost:3456/wd/hub/session/82c7228d-3a9f-422f-ad6a-d2715665cfa2/element:{"using":"name","value":"直播"}
+
+
+# Created on 2018-10-23T12:59:00.045
+Unexpected IOException with stream: 2018-10-23 12:59:00 Response:{"status":32,"value":"Argument was an invalid selector (e.g. XPath/CSS).","sessionId":"82c7228d-3a9f-422f-ad6a-d2715665cfa2"}
+
+

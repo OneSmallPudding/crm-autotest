@@ -1,0 +1,29 @@
+# Created on 2018-10-23T13:42:42.164
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-23T13:42:42.917
+Unexpected IOException with stream: 2018-10-23 13:42:42 Response:{"status":0,"value":[{"ELEMENT":"29"}],"sessionId":"c22cd292-2364-4912-891e-f3b2dcecd230"}
+
+
+# Created on 2018-10-23T13:42:42.927
+Unexpected IOException with stream: 2018-10-23 13:42:42 Request:http://localhost:3456/wd/hub/session/c22cd292-2364-4912-891e-f3b2dcecd230/elements:{"using":"id","value":"com.xbcx.gdwx3:id/comment_content_eet"}
+
+
+# Created on 2018-10-23T13:42:42.985
+Unexpected IOException with stream: 2018-10-23 13:42:42 Response:{"status":0,"value":[{"ELEMENT":"30"}],"sessionId":"c22cd292-2364-4912-891e-f3b2dcecd230"}
+
+
+# Created on 2018-10-23T13:42:42.989
+Unexpected IOException with stream: 2018-10-23 13:42:42 Request:http://localhost:3456/wd/hub/session/c22cd292-2364-4912-891e-f3b2dcecd230/element/30/value:{"value":["这篇文章写的很好"]}
+
+
+# Created on 2018-10-23T13:42:43.074
+Unexpected IOException with stream: 2018-10-23 13:42:43 Response:{"status":0,"sessionId":"c22cd292-2364-4912-891e-f3b2dcecd230"}
+
+

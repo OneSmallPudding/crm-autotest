@@ -1,0 +1,53 @@
+# Created on 2018-10-29T17:10:18.472
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-29T17:10:19.117
+Unexpected IOException with stream: 2018-10-29 17:10:19 Request:http://localhost:3456/wd/hub/session/a9412807-eb8d-45fd-aaf2-ab7c9e4e8cb2/elements:{"using":"name","value":"CMA"}
+
+
+# Created on 2018-10-29T17:10:19.171
+Unexpected IOException with stream: 2018-10-29 17:10:19 Response:{"status":0,"value":[],"sessionId":"a9412807-eb8d-45fd-aaf2-ab7c9e4e8cb2"}
+
+
+# Created on 2018-10-29T17:10:19.172
+Unexpected IOException with stream: can't find the element:CMA[0]
+
+
+# Created on 2018-10-29T17:10:19.373
+Unexpected IOException with stream: attempt to search the element for 4 times
+
+
+# Created on 2018-10-29T17:10:19.374
+Unexpected IOException with stream: 2018-10-29 17:10:19 Request:http://localhost:3456/wd/hub/session/a9412807-eb8d-45fd-aaf2-ab7c9e4e8cb2/elements:{"using":"name","value":"CMA"}
+
+
+# Created on 2018-10-29T17:10:19.416
+Unexpected IOException with stream: 2018-10-29 17:10:19 Response:{"status":0,"value":[],"sessionId":"a9412807-eb8d-45fd-aaf2-ab7c9e4e8cb2"}
+
+
+# Created on 2018-10-29T17:10:19.417
+Unexpected IOException with stream: can't find the element:CMA[0]
+
+
+# Created on 2018-10-29T17:10:19.618
+Unexpected IOException with stream: can't find the element:CMA
+
+
+# Created on 2018-10-29T17:10:19.619
+Unexpected IOException: 8,1,com.javademo.cases.testDiscover,testCmaPortalGroup(com.javademo.cases.testDiscover),null,null,null,null,testDiscover.testCmaPortalGroup:123 \00BB NullPointer,java.lang.NullPointerException\000A\0009at com.javademo.cases.testDiscover.testCmaPortalGroup(testDiscover.java:123)\000A
+
+
+# Created on 2018-10-29T17:10:19.636
+Unexpected IOException with stream: 2018-10-29 17:10:19 Response:{"sessionId":"a9412807-eb8d-45fd-aaf2-ab7c9e4e8cb2","status":0}
+
+
+# Created on 2018-10-29T17:10:19.795
+Unexpected IOException with stream: 2018-10-29 17:10:19 Request:http://localhost:3456/wd/hub/session:{"desiredCapabilities":{"app":"D:\\macaca-java-biz-sample\\app/app-gaodun-debug.apk","reuse":3,"platformName":"Android"}}
+
+

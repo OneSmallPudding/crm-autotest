@@ -1,0 +1,41 @@
+# Created on 2018-10-29T16:56:20.946
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-29T16:56:22.899
+Unexpected IOException with stream: 2018-10-29 16:56:22 Response:{"status":0,"value":{"ELEMENT":"7"},"sessionId":"e8bdcacc-32d6-47d9-be90-7887eb3aa75e"}
+
+
+# Created on 2018-10-29T16:56:22.902
+Unexpected IOException with stream: 2018-10-29 16:56:22 Request:http://localhost:3456/wd/hub/session/e8bdcacc-32d6-47d9-be90-7887eb3aa75e/element:{"using":"name","value":"全部"}
+
+
+# Created on 2018-10-29T16:56:22.975
+Unexpected IOException with stream: 2018-10-29 16:56:22 Response:{"status":0,"value":{"ELEMENT":"8"},"sessionId":"e8bdcacc-32d6-47d9-be90-7887eb3aa75e"}
+
+
+# Created on 2018-10-29T16:56:22.978
+Unexpected IOException with stream: 2018-10-29 16:56:22 Request:http://localhost:3456/wd/hub/session/e8bdcacc-32d6-47d9-be90-7887eb3aa75e/elements:{"using":"id","value":"com.xbcx.gdwx3:id/btn_topl_img"}
+
+
+# Created on 2018-10-29T16:56:23.044
+Unexpected IOException with stream: 2018-10-29 16:56:23 Response:{"status":0,"value":[{"ELEMENT":"9"}],"sessionId":"e8bdcacc-32d6-47d9-be90-7887eb3aa75e"}
+
+
+# Created on 2018-10-29T16:56:23.047
+Unexpected IOException with stream: 2018-10-29 16:56:23 Request:http://localhost:3456/wd/hub/session/e8bdcacc-32d6-47d9-be90-7887eb3aa75e/elements:{"using":"id","value":"com.xbcx.gdwx3:id/btn_topl_img"}
+
+
+# Created on 2018-10-29T16:56:23.111
+Unexpected IOException with stream: 2018-10-29 16:56:23 Response:{"status":0,"value":[{"ELEMENT":"10"}],"sessionId":"e8bdcacc-32d6-47d9-be90-7887eb3aa75e"}
+
+
+# Created on 2018-10-29T16:56:23.115
+Unexpected IOException with stream: 2018-10-29 16:56:23 Request:http://localhost:3456/wd/hub/session/e8bdcacc-32d6-47d9-be90-7887eb3aa75e/element/10/click:{}
+
+

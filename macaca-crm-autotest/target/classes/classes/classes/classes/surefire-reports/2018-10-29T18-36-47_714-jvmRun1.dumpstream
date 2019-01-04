@@ -1,0 +1,17 @@
+# Created on 2018-10-29T18:41:15.459
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-29T18:41:17.065
+Unexpected IOException with stream: attempt to search the element for 3 times
+
+
+# Created on 2018-10-29T18:41:17.068
+Unexpected IOException with stream: 2018-10-29 18:41:17 Request:http://localhost:3456/wd/hub/session/09b859ad-3038-4d02-9d6f-ed7f9478304c/element:{"using":"id","value":"com.xbcx.gdwx3:id/rl_mine"}
+
+

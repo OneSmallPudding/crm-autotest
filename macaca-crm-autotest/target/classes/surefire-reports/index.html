@@ -1,0 +1,1898 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 52 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-failed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>C:\Users\qian\Desktop\macaca-crm-autotest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">52 methods, 52 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods failed suite-Suite1"> (hide)</a> <!-- hide-methods failed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods failed suite-Suite1"> (show)</a> <!-- show-methods failed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_1">order_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_105">order_105</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_106">order_106</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_107">order_107</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_109">order_109</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_110">order_110</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_111">order_111</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_112">order_112</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_113">order_113</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_114">order_114</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_115">order_115</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_116">order_116</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_117">order_117</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_118">order_118</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_119">order_119</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_120">order_120</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_121">order_121</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_122">order_122</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_123">order_123</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_124">order_124</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_125">order_125</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_126">order_126</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_127">order_127</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_128">order_128</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_129">order_129</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_130">order_130</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_131">order_131</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_132">order_132</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_133">order_133</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_134">order_134</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_135">order_135</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_136">order_136</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_1_1">order_1_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_27">order_27</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_38_1">order_38_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_38_2">order_38_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_38_3">order_38_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_38_4">order_38_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_46">order_46</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_46_1">order_46_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_46_2">order_46_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_46_3">order_46_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_46_4">order_46_4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_46_5">order_46_5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_46_6">order_46_6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_50">order_50</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_58">order_58</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_58_1">order_58_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_58_2">order_58_2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_58_3">order_58_3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_61">order_61</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.javademo.cases.testOrder2" hash-for-method="order_8">order_8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.javademo.cases.testOrder2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_1">
+                  </a> <!-- order_1 -->
+                  <span class="method-name">order_1</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.addOrder(GaodunOrderPage.java:33)
+	at com.javademo.cases.testOrder2.order_1(testOrder2.java:73)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_105">
+                  </a> <!-- order_105 -->
+                  <span class="method-name">order_105</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_105(testOrder2.java:26)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_106">
+                  </a> <!-- order_106 -->
+                  <span class="method-name">order_106</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_106(testOrder2.java:32)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_107">
+                  </a> <!-- order_107 -->
+                  <span class="method-name">order_107</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_107(testOrder2.java:39)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_109">
+                  </a> <!-- order_109 -->
+                  <span class="method-name">order_109</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_109(testOrder2.java:46)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_110">
+                  </a> <!-- order_110 -->
+                  <span class="method-name">order_110</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_110(testOrder2.java:53)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_111">
+                  </a> <!-- order_111 -->
+                  <span class="method-name">order_111</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_111(testOrder2.java:60)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_112">
+                  </a> <!-- order_112 -->
+                  <span class="method-name">order_112</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_112(testOrder2.java:67)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_113">
+                  </a> <!-- order_113 -->
+                  <span class="method-name">order_113</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_113(testOrder2.java:80)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_114">
+                  </a> <!-- order_114 -->
+                  <span class="method-name">order_114</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_114(testOrder2.java:93)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_115">
+                  </a> <!-- order_115 -->
+                  <span class="method-name">order_115</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_115(testOrder2.java:100)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_116">
+                  </a> <!-- order_116 -->
+                  <span class="method-name">order_116</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_116(testOrder2.java:112)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_117">
+                  </a> <!-- order_117 -->
+                  <span class="method-name">order_117</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_117(testOrder2.java:119)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_118">
+                  </a> <!-- order_118 -->
+                  <span class="method-name">order_118</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_118(testOrder2.java:131)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_119">
+                  </a> <!-- order_119 -->
+                  <span class="method-name">order_119</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_119(testOrder2.java:138)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_120">
+                  </a> <!-- order_120 -->
+                  <span class="method-name">order_120</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_120(testOrder2.java:175)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_121">
+                  </a> <!-- order_121 -->
+                  <span class="method-name">order_121</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_121(testOrder2.java:182)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_122">
+                  </a> <!-- order_122 -->
+                  <span class="method-name">order_122</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_122(testOrder2.java:150)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_123">
+                  </a> <!-- order_123 -->
+                  <span class="method-name">order_123</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRefund_105(GaodunOrderPage.java:838)
+	at com.javademo.cases.testOrder2.order_123(testOrder2.java:157)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_124">
+                  </a> <!-- order_124 -->
+                  <span class="method-name">order_124</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_124(testOrder2.java:208)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_125">
+                  </a> <!-- order_125 -->
+                  <span class="method-name">order_125</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_125(testOrder2.java:226)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_126">
+                  </a> <!-- order_126 -->
+                  <span class="method-name">order_126</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_126(testOrder2.java:214)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_127">
+                  </a> <!-- order_127 -->
+                  <span class="method-name">order_127</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_127(testOrder2.java:246)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_128">
+                  </a> <!-- order_128 -->
+                  <span class="method-name">order_128</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_128(testOrder2.java:259)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_129">
+                  </a> <!-- order_129 -->
+                  <span class="method-name">order_129</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_129(testOrder2.java:266)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_130">
+                  </a> <!-- order_130 -->
+                  <span class="method-name">order_130</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_130(testOrder2.java:344)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_131">
+                  </a> <!-- order_131 -->
+                  <span class="method-name">order_131</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_131(testOrder2.java:273)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_132">
+                  </a> <!-- order_132 -->
+                  <span class="method-name">order_132</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_132(testOrder2.java:293)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_133">
+                  </a> <!-- order_133 -->
+                  <span class="method-name">order_133</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderAbnormal_124(GaodunOrderPage.java:894)
+	at com.javademo.cases.testOrder2.order_133(testOrder2.java:313)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_134">
+                  </a> <!-- order_134 -->
+                  <span class="method-name">order_134</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRecommend(GaodunOrderPage.java:941)
+	at com.javademo.cases.testOrder2.order_134(testOrder2.java:325)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_135">
+                  </a> <!-- order_135 -->
+                  <span class="method-name">order_135</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRecommend(GaodunOrderPage.java:941)
+	at com.javademo.cases.testOrder2.order_135(testOrder2.java:331)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_136">
+                  </a> <!-- order_136 -->
+                  <span class="method-name">order_136</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderRecommend(GaodunOrderPage.java:941)
+	at com.javademo.cases.testOrder2.order_136(testOrder2.java:337)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_1_1">
+                  </a> <!-- order_1_1 -->
+                  <span class="method-name">order_1_1</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.addOrder(GaodunOrderPage.java:33)
+	at com.javademo.cases.testOrder2.order_1_1(testOrder2.java:189)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_27">
+                  </a> <!-- order_27 -->
+                  <span class="method-name">order_27</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_27(GaodunOrderPage.java:327)
+	at com.javademo.cases.testOrder2.order_27(testOrder2.java:20)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_38_1">
+                  </a> <!-- order_38_1 -->
+                  <span class="method-name">order_38_1</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_38(GaodunOrderPage.java:422)
+	at com.javademo.cases.testOrder2.order_38_1(testOrder2.java:86)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_38_2">
+                  </a> <!-- order_38_2 -->
+                  <span class="method-name">order_38_2</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_38(GaodunOrderPage.java:422)
+	at com.javademo.cases.testOrder2.order_38_2(testOrder2.java:106)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_38_3">
+                  </a> <!-- order_38_3 -->
+                  <span class="method-name">order_38_3</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_38(GaodunOrderPage.java:422)
+	at com.javademo.cases.testOrder2.order_38_3(testOrder2.java:195)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_38_4">
+                  </a> <!-- order_38_4 -->
+                  <span class="method-name">order_38_4</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_38(GaodunOrderPage.java:422)
+	at com.javademo.cases.testOrder2.order_38_4(testOrder2.java:232)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_46">
+                  </a> <!-- order_46 -->
+                  <span class="method-name">order_46</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_46(testOrder2.java:125)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_46_1">
+                  </a> <!-- order_46_1 -->
+                  <span class="method-name">order_46_1</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_46_1(testOrder2.java:201)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_46_2">
+                  </a> <!-- order_46_2 -->
+                  <span class="method-name">order_46_2</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_46_2(testOrder2.java:220)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_46_3">
+                  </a> <!-- order_46_3 -->
+                  <span class="method-name">order_46_3</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_46_3(testOrder2.java:239)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_46_4">
+                  </a> <!-- order_46_4 -->
+                  <span class="method-name">order_46_4</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_46_4(testOrder2.java:253)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_46_5">
+                  </a> <!-- order_46_5 -->
+                  <span class="method-name">order_46_5</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_46_5(testOrder2.java:280)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_46_6">
+                  </a> <!-- order_46_6 -->
+                  <span class="method-name">order_46_6</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_46_6(testOrder2.java:301)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_50">
+                  </a> <!-- order_50 -->
+                  <span class="method-name">order_50</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.getOrderByPhone(GaodunOrderPage.java:1013)
+	at com.javademo.pages.GaodunOrderPage.orderPay_40(GaodunOrderPage.java:452)
+	at com.javademo.cases.testOrder2.order_50(testOrder2.java:163)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_58">
+                  </a> <!-- order_58 -->
+                  <span class="method-name">order_58</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.audit(GaodunOrderPage.java:1046)
+	at com.javademo.pages.GaodunOrderPage.orderPay_58(GaodunOrderPage.java:589)
+	at com.javademo.cases.testOrder2.order_58(testOrder2.java:169)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_58_1">
+                  </a> <!-- order_58_1 -->
+                  <span class="method-name">order_58_1</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.audit(GaodunOrderPage.java:1046)
+	at com.javademo.pages.GaodunOrderPage.orderPay_58(GaodunOrderPage.java:589)
+	at com.javademo.cases.testOrder2.order_58_1(testOrder2.java:286)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_58_2">
+                  </a> <!-- order_58_2 -->
+                  <span class="method-name">order_58_2</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.audit(GaodunOrderPage.java:1046)
+	at com.javademo.pages.GaodunOrderPage.orderPay_58(GaodunOrderPage.java:589)
+	at com.javademo.cases.testOrder2.order_58_2(testOrder2.java:307)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_58_3">
+                  </a> <!-- order_58_3 -->
+                  <span class="method-name">order_58_3</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.audit(GaodunOrderPage.java:1046)
+	at com.javademo.pages.GaodunOrderPage.orderPay_58(GaodunOrderPage.java:589)
+	at com.javademo.cases.testOrder2.order_58_3(testOrder2.java:319)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_61">
+                  </a> <!-- order_61 -->
+                  <span class="method-name">order_61</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.audit(GaodunOrderPage.java:1046)
+	at com.javademo.pages.GaodunOrderPage.orderPay_61(GaodunOrderPage.java:669)
+	at com.javademo.cases.testOrder2.order_61(testOrder2.java:144)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="order_8">
+                  </a> <!-- order_8 -->
+                  <span class="method-name">order_8</span>
+                  <div class="stack-trace">java.lang.IllegalArgumentException: Invalid key code
+	at sun.awt.windows.WRobotPeer.keyPress(Native Method)
+	at java.awt.Robot.keyPress(Robot.java:354)
+	at com.javademo.pages.GaodunOrderPage.getRefresh(GaodunOrderPage.java:991)
+	at com.javademo.pages.GaodunOrderPage.addOrder(GaodunOrderPage.java:33)
+	at com.javademo.cases.testOrder2.order_8(testOrder2.java:14)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-failed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\qian\Desktop\macaca-crm-autotest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite1&quot;&gt;
+  &lt;test name=&quot;testDiscover&quot;&gt;
+    &lt;parameter name=&quot;elementTimeInterval&quot; value=&quot;2000&quot;/&gt;
+    &lt;parameter name=&quot;elementTimeout&quot; value=&quot;50000&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.javademo.cases.testOrder2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testDiscover --&gt;
+  &lt;test name=&quot;testDiscover(failed)&quot;&gt;
+    &lt;parameter name=&quot;elementTimeInterval&quot; value=&quot;2000&quot;/&gt;
+    &lt;parameter name=&quot;elementTimeout&quot; value=&quot;50000&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.javademo.cases.testOrder2&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;order_38_3&quot;/&gt;
+          &lt;include name=&quot;order_38_2&quot;/&gt;
+          &lt;include name=&quot;order_61&quot;/&gt;
+          &lt;include name=&quot;order_38_4&quot;/&gt;
+          &lt;include name=&quot;order_38_1&quot;/&gt;
+          &lt;include name=&quot;order_27&quot;/&gt;
+          &lt;include name=&quot;order_136&quot;/&gt;
+          &lt;include name=&quot;order_133&quot;/&gt;
+          &lt;include name=&quot;order_134&quot;/&gt;
+          &lt;include name=&quot;order_132&quot;/&gt;
+          &lt;include name=&quot;order_46_4&quot;/&gt;
+          &lt;include name=&quot;order_130&quot;/&gt;
+          &lt;include name=&quot;order_135&quot;/&gt;
+          &lt;include name=&quot;order_46_5&quot;/&gt;
+          &lt;include name=&quot;order_131&quot;/&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;order_46_2&quot;/&gt;
+          &lt;include name=&quot;order_46_3&quot;/&gt;
+          &lt;include name=&quot;order_46_6&quot;/&gt;
+          &lt;include name=&quot;order_46_1&quot;/&gt;
+          &lt;include name=&quot;order_129&quot;/&gt;
+          &lt;include name=&quot;order_126&quot;/&gt;
+          &lt;include name=&quot;order_127&quot;/&gt;
+          &lt;include name=&quot;order_125&quot;/&gt;
+          &lt;include name=&quot;order_122&quot;/&gt;
+          &lt;include name=&quot;order_123&quot;/&gt;
+          &lt;include name=&quot;order_128&quot;/&gt;
+          &lt;include name=&quot;order_121&quot;/&gt;
+          &lt;include name=&quot;order_58_3&quot;/&gt;
+          &lt;include name=&quot;order_124&quot;/&gt;
+          &lt;include name=&quot;order_120&quot;/&gt;
+          &lt;include name=&quot;order_58_1&quot;/&gt;
+          &lt;include name=&quot;order_58_2&quot;/&gt;
+          &lt;include name=&quot;order_46&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+          &lt;include name=&quot;order_1_1&quot;/&gt;
+          &lt;include name=&quot;order_119&quot;/&gt;
+          &lt;include name=&quot;order_118&quot;/&gt;
+          &lt;include name=&quot;order_115&quot;/&gt;
+          &lt;include name=&quot;order_8&quot;/&gt;
+          &lt;include name=&quot;order_116&quot;/&gt;
+          &lt;include name=&quot;order_1&quot;/&gt;
+          &lt;include name=&quot;order_114&quot;/&gt;
+          &lt;include name=&quot;order_111&quot;/&gt;
+          &lt;include name=&quot;order_112&quot;/&gt;
+          &lt;include name=&quot;order_117&quot;/&gt;
+          &lt;include name=&quot;order_110&quot;/&gt;
+          &lt;include name=&quot;order_113&quot;/&gt;
+          &lt;include name=&quot;order_50&quot;/&gt;
+          &lt;include name=&quot;order_58&quot;/&gt;
+          &lt;include name=&quot;order_109&quot;/&gt;
+          &lt;include name=&quot;order_107&quot;/&gt;
+          &lt;include name=&quot;order_105&quot;/&gt;
+          &lt;include name=&quot;order_106&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.javademo.cases.testOrder2 --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- testDiscover(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">testDiscover (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">testDiscover(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(52);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'order_8')
+data.setCell(0, 2, 'com.javademo.cases.testOrder2')
+data.setCell(0, 3, 2638);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'order_1')
+data.setCell(1, 2, 'com.javademo.cases.testOrder2')
+data.setCell(1, 3, 2566);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'order_1_1')
+data.setCell(2, 2, 'com.javademo.cases.testOrder2')
+data.setCell(2, 3, 2549);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'order_58_1')
+data.setCell(3, 2, 'com.javademo.cases.testOrder2')
+data.setCell(3, 3, 503);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'order_46')
+data.setCell(4, 2, 'com.javademo.cases.testOrder2')
+data.setCell(4, 3, 502);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'order_127')
+data.setCell(5, 2, 'com.javademo.cases.testOrder2')
+data.setCell(5, 3, 502);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'order_38_4')
+data.setCell(6, 2, 'com.javademo.cases.testOrder2')
+data.setCell(6, 3, 502);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'order_123')
+data.setCell(7, 2, 'com.javademo.cases.testOrder2')
+data.setCell(7, 3, 502);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'order_105')
+data.setCell(8, 2, 'com.javademo.cases.testOrder2')
+data.setCell(8, 3, 502);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'order_121')
+data.setCell(9, 2, 'com.javademo.cases.testOrder2')
+data.setCell(9, 3, 502);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'order_38_1')
+data.setCell(10, 2, 'com.javademo.cases.testOrder2')
+data.setCell(10, 3, 502);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'order_132')
+data.setCell(11, 2, 'com.javademo.cases.testOrder2')
+data.setCell(11, 3, 502);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'order_38_2')
+data.setCell(12, 2, 'com.javademo.cases.testOrder2')
+data.setCell(12, 3, 502);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'order_109')
+data.setCell(13, 2, 'com.javademo.cases.testOrder2')
+data.setCell(13, 3, 502);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'order_111')
+data.setCell(14, 2, 'com.javademo.cases.testOrder2')
+data.setCell(14, 3, 501);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'order_128')
+data.setCell(15, 2, 'com.javademo.cases.testOrder2')
+data.setCell(15, 3, 501);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'order_117')
+data.setCell(16, 2, 'com.javademo.cases.testOrder2')
+data.setCell(16, 3, 501);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'order_131')
+data.setCell(17, 2, 'com.javademo.cases.testOrder2')
+data.setCell(17, 3, 501);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'order_46_3')
+data.setCell(18, 2, 'com.javademo.cases.testOrder2')
+data.setCell(18, 3, 501);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'order_112')
+data.setCell(19, 2, 'com.javademo.cases.testOrder2')
+data.setCell(19, 3, 501);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'order_119')
+data.setCell(20, 2, 'com.javademo.cases.testOrder2')
+data.setCell(20, 3, 501);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'order_50')
+data.setCell(21, 2, 'com.javademo.cases.testOrder2')
+data.setCell(21, 3, 501);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'order_115')
+data.setCell(22, 2, 'com.javademo.cases.testOrder2')
+data.setCell(22, 3, 501);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'order_61')
+data.setCell(23, 2, 'com.javademo.cases.testOrder2')
+data.setCell(23, 3, 501);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'order_135')
+data.setCell(24, 2, 'com.javademo.cases.testOrder2')
+data.setCell(24, 3, 501);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'order_58')
+data.setCell(25, 2, 'com.javademo.cases.testOrder2')
+data.setCell(25, 3, 501);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'order_107')
+data.setCell(26, 2, 'com.javademo.cases.testOrder2')
+data.setCell(26, 3, 501);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'order_110')
+data.setCell(27, 2, 'com.javademo.cases.testOrder2')
+data.setCell(27, 3, 501);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'order_58_2')
+data.setCell(28, 2, 'com.javademo.cases.testOrder2')
+data.setCell(28, 3, 501);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'order_134')
+data.setCell(29, 2, 'com.javademo.cases.testOrder2')
+data.setCell(29, 3, 501);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'order_118')
+data.setCell(30, 2, 'com.javademo.cases.testOrder2')
+data.setCell(30, 3, 501);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'order_46_6')
+data.setCell(31, 2, 'com.javademo.cases.testOrder2')
+data.setCell(31, 3, 501);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'order_130')
+data.setCell(32, 2, 'com.javademo.cases.testOrder2')
+data.setCell(32, 3, 501);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'order_46_1')
+data.setCell(33, 2, 'com.javademo.cases.testOrder2')
+data.setCell(33, 3, 501);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'order_46_5')
+data.setCell(34, 2, 'com.javademo.cases.testOrder2')
+data.setCell(34, 3, 501);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'order_126')
+data.setCell(35, 2, 'com.javademo.cases.testOrder2')
+data.setCell(35, 3, 501);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'order_27')
+data.setCell(36, 2, 'com.javademo.cases.testOrder2')
+data.setCell(36, 3, 500);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'order_38_3')
+data.setCell(37, 2, 'com.javademo.cases.testOrder2')
+data.setCell(37, 3, 500);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'order_136')
+data.setCell(38, 2, 'com.javademo.cases.testOrder2')
+data.setCell(38, 3, 500);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'order_122')
+data.setCell(39, 2, 'com.javademo.cases.testOrder2')
+data.setCell(39, 3, 500);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'order_124')
+data.setCell(40, 2, 'com.javademo.cases.testOrder2')
+data.setCell(40, 3, 500);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'order_120')
+data.setCell(41, 2, 'com.javademo.cases.testOrder2')
+data.setCell(41, 3, 500);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'order_116')
+data.setCell(42, 2, 'com.javademo.cases.testOrder2')
+data.setCell(42, 3, 500);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'order_46_2')
+data.setCell(43, 2, 'com.javademo.cases.testOrder2')
+data.setCell(43, 3, 500);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'order_106')
+data.setCell(44, 2, 'com.javademo.cases.testOrder2')
+data.setCell(44, 3, 500);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'order_129')
+data.setCell(45, 2, 'com.javademo.cases.testOrder2')
+data.setCell(45, 3, 500);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'order_113')
+data.setCell(46, 2, 'com.javademo.cases.testOrder2')
+data.setCell(46, 3, 500);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'order_125')
+data.setCell(47, 2, 'com.javademo.cases.testOrder2')
+data.setCell(47, 3, 500);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'order_46_4')
+data.setCell(48, 2, 'com.javademo.cases.testOrder2')
+data.setCell(48, 3, 500);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'order_133')
+data.setCell(49, 2, 'com.javademo.cases.testOrder2')
+data.setCell(49, 3, 500);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'order_58_3')
+data.setCell(50, 2, 'com.javademo.cases.testOrder2')
+data.setCell(50, 3, 500);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'order_114')
+data.setCell(51, 2, 'com.javademo.cases.testOrder2')
+data.setCell(51, 3, 500);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.javademo.cases.testOrder2</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_8</span>
+                <span class="method-start">9422 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_27</span>
+                <span class="method-start">12073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_105</span>
+                <span class="method-start">12573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_106</span>
+                <span class="method-start">13076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_107</span>
+                <span class="method-start">13577 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_109</span>
+                <span class="method-start">14078 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_110</span>
+                <span class="method-start">14581 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_111</span>
+                <span class="method-start">15083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_112</span>
+                <span class="method-start">15584 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_1</span>
+                <span class="method-start">16086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_113</span>
+                <span class="method-start">18653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_38_1</span>
+                <span class="method-start">19153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_114</span>
+                <span class="method-start">19655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_115</span>
+                <span class="method-start">20155 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_38_2</span>
+                <span class="method-start">20656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_116</span>
+                <span class="method-start">21158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_117</span>
+                <span class="method-start">21658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_46</span>
+                <span class="method-start">22159 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_118</span>
+                <span class="method-start">22662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_119</span>
+                <span class="method-start">23163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_61</span>
+                <span class="method-start">23665 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_122</span>
+                <span class="method-start">24166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_123</span>
+                <span class="method-start">24666 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_50</span>
+                <span class="method-start">25169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_58</span>
+                <span class="method-start">25671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_120</span>
+                <span class="method-start">26172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_121</span>
+                <span class="method-start">26672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_1_1</span>
+                <span class="method-start">27174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_38_3</span>
+                <span class="method-start">29723 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_46_1</span>
+                <span class="method-start">30223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_124</span>
+                <span class="method-start">30724 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_126</span>
+                <span class="method-start">31224 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_46_2</span>
+                <span class="method-start">31727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_125</span>
+                <span class="method-start">32227 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_38_4</span>
+                <span class="method-start">32727 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_46_3</span>
+                <span class="method-start">33230 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_127</span>
+                <span class="method-start">33731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_46_4</span>
+                <span class="method-start">34233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_128</span>
+                <span class="method-start">34734 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_129</span>
+                <span class="method-start">35235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_131</span>
+                <span class="method-start">35736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_46_5</span>
+                <span class="method-start">36237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_58_1</span>
+                <span class="method-start">36738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_132</span>
+                <span class="method-start">37242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_46_6</span>
+                <span class="method-start">37747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_58_2</span>
+                <span class="method-start">38249 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_133</span>
+                <span class="method-start">38751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_58_3</span>
+                <span class="method-start">39251 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_134</span>
+                <span class="method-start">39751 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_135</span>
+                <span class="method-start">40253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_136</span>
+                <span class="method-start">40754 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">order_130</span>
+                <span class="method-start">41254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41758 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

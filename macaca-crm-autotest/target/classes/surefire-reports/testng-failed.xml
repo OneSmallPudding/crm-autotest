@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]">
+  <parameter name="elementTimeInterval" value="2000"/>
+  <parameter name="elementTimeout" value="50000"/>
+  <test name="testDiscover">
+    <parameter name="elementTimeInterval" value="2000"/>
+    <parameter name="elementTimeout" value="50000"/>
+    <classes>
+      <class name="com.javademo.cases.testOrder2"/>
+    </classes>
+  </test> <!-- testDiscover -->
+  <test name="testDiscover(failed)">
+    <parameter name="elementTimeInterval" value="2000"/>
+    <parameter name="elementTimeout" value="50000"/>
+    <classes>
+      <class name="com.javademo.cases.testOrder2">
+        <methods>
+          <include name="order_38_3"/>
+          <include name="order_38_2"/>
+          <include name="order_61"/>
+          <include name="order_38_4"/>
+          <include name="order_38_1"/>
+          <include name="order_27"/>
+          <include name="order_136"/>
+          <include name="order_133"/>
+          <include name="order_134"/>
+          <include name="order_132"/>
+          <include name="order_46_4"/>
+          <include name="order_130"/>
+          <include name="order_135"/>
+          <include name="order_46_5"/>
+          <include name="order_131"/>
+          <include name="tearDown"/>
+          <include name="order_46_2"/>
+          <include name="order_46_3"/>
+          <include name="order_46_6"/>
+          <include name="order_46_1"/>
+          <include name="order_129"/>
+          <include name="order_126"/>
+          <include name="order_127"/>
+          <include name="order_125"/>
+          <include name="order_122"/>
+          <include name="order_123"/>
+          <include name="order_128"/>
+          <include name="order_121"/>
+          <include name="order_58_3"/>
+          <include name="order_124"/>
+          <include name="order_120"/>
+          <include name="order_58_1"/>
+          <include name="order_58_2"/>
+          <include name="order_46"/>
+          <include name="setUp"/>
+          <include name="order_1_1"/>
+          <include name="order_119"/>
+          <include name="order_118"/>
+          <include name="order_115"/>
+          <include name="order_8"/>
+          <include name="order_116"/>
+          <include name="order_1"/>
+          <include name="order_114"/>
+          <include name="order_111"/>
+          <include name="order_112"/>
+          <include name="order_117"/>
+          <include name="order_110"/>
+          <include name="order_113"/>
+          <include name="order_50"/>
+          <include name="order_58"/>
+          <include name="order_109"/>
+          <include name="order_107"/>
+          <include name="order_105"/>
+          <include name="order_106"/>
+        </methods>
+      </class> <!-- com.javademo.cases.testOrder2 -->
+    </classes>
+  </test> <!-- testDiscover(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

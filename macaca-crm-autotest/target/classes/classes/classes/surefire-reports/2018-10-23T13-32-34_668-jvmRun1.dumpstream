@@ -1,0 +1,33 @@
+# Created on 2018-10-23T13:35:05.851
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-23T13:35:06.826
+Unexpected IOException with stream: 2018-10-23 13:35:06 Response:{"status":0,"value":[],"sessionId":"f9850e8b-0462-4cbb-966c-eb509c391601"}
+
+
+# Created on 2018-10-23T13:35:06.827
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/rl_find[0]
+
+
+# Created on 2018-10-23T13:35:07.028
+Unexpected IOException with stream: attempt to search the element for 2 times
+
+
+# Created on 2018-10-23T13:35:07.029
+Unexpected IOException with stream: 2018-10-23 13:35:07 Request:http://localhost:3456/wd/hub/session/f9850e8b-0462-4cbb-966c-eb509c391601/elements:{"using":"id","value":"com.xbcx.gdwx3:id/rl_find"}
+
+
+# Created on 2018-10-23T13:35:07.059
+Unexpected IOException with stream: 2018-10-23 13:35:07 Response:{"status":0,"value":[],"sessionId":"f9850e8b-0462-4cbb-966c-eb509c391601"}
+
+
+# Created on 2018-10-23T13:35:07.060
+Unexpected IOException with stream: can't find the element:com.xbcx.gdwx3:id/rl_find[0]
+
+

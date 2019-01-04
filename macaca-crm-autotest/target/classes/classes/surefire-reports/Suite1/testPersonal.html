@@ -1,0 +1,389 @@
+<html>
+<head>
+<title>TestNG:  testPersonal</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>testPersonal</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/19/19</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 07 13:22:56 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (183 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.setUp()'><b>setUp</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>org.testng.TestNGException: 
+Method setUp requires 2 parameters but 0 were supplied in the @Configuration annotation.
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1234586997", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1234586997'><pre>org.testng.TestNGException: 
+Method setUp requires 2 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.tearDown()'><b>tearDown</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.clickArticleCollection()'><b>clickArticleCollection</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace438314766", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace438314766'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.clickCancelVideoCollection()'><b>clickCancelVideoCollection</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1014794348", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1014794348'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.clickVideoCollection()'><b>clickVideoCollection</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1477637771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1477637771'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyBirth()'><b>modifyBirth</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace835146383", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace835146383'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyCompany()'><b>modifyCompany</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace322112198", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace322112198'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyMajor()'><b>modifyMajor</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1408695561", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1408695561'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyOccupation()'><b>modifyOccupation</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace461698165", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace461698165'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyPosition()'><b>modifyPosition</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace966966167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace966966167'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifySchool()'><b>modifySchool</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace616207929", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace616207929'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifySex()'><b>modifySex</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace669965156", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace669965156'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyState()'><b>modifyState</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace2048013503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2048013503'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testGiftComment()'><b>testGiftComment</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace369671357", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace369671357'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testGiftSign()'><b>testGiftSign</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1868805237", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1868805237'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testMall()'><b>testMall</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1388563249", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1388563249'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testModifyNickname()'><b>testModifyNickname</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace1180858072", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1180858072'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testOrder()'><b>testOrder</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace862916729", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace862916729'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testPersonalSign()'><b>testPersonalSign</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace147022238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace147022238'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testScoreCenter()'><b>testScoreCenter</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace701119748", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace701119748'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testSpitlot()'><b>testSpitlot</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td><div><pre>java.lang.NullPointerException
+</pre></div><a href='#' onClick='toggleBox("stack-trace873827336", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace873827336'><pre>java.lang.NullPointerException
+</pre></div></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.clickArticleCollection()'><b>clickArticleCollection</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.clickCancelVideoCollection()'><b>clickCancelVideoCollection</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.clickVideoCollection()'><b>clickVideoCollection</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyBirth()'><b>modifyBirth</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyCompany()'><b>modifyCompany</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyMajor()'><b>modifyMajor</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyOccupation()'><b>modifyOccupation</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyPosition()'><b>modifyPosition</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifySchool()'><b>modifySchool</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifySex()'><b>modifySex</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.modifyState()'><b>modifyState</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testGiftComment()'><b>testGiftComment</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testGiftSign()'><b>testGiftSign</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testMall()'><b>testMall</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testModifyNickname()'><b>testModifyNickname</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testOrder()'><b>testOrder</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testPersonalSign()'><b>testPersonalSign</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testScoreCenter()'><b>testScoreCenter</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+<tr>
+<td title='com.javademo.cases.testPersonal.testSpitlot()'><b>testSpitlot</b><br>Test class: com.javademo.cases.testPersonal</td>
+<td></td>
+<td>0</td>
+<td>com.javademo.cases.testPersonal@35841320</td></tr>
+</table><p>
+</body>
+</html>

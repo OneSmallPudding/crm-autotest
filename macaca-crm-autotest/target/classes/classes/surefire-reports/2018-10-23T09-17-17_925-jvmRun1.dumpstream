@@ -1,0 +1,45 @@
+# Created on 2018-10-23T09:19:37.263
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-10-23T09:19:38.608
+Unexpected IOException with stream: 2018-10-23 09:19:38 Response:{"status":0,"value":[{"ELEMENT":"50"}],"sessionId":"e6b657ef-4f32-4af8-842c-5f2c6db0b8a7"}
+
+
+# Created on 2018-10-23T09:19:38.610
+Unexpected IOException with stream: 2018-10-23 09:19:38 Request:http://localhost:3456/wd/hub/session/e6b657ef-4f32-4af8-842c-5f2c6db0b8a7/element/50/click:{}
+
+
+# Created on 2018-10-23T09:19:38.706
+Unexpected IOException with stream: 2018-10-23 09:19:38 Response:{"status":0,"sessionId":"e6b657ef-4f32-4af8-842c-5f2c6db0b8a7"}
+
+
+# Created on 2018-10-23T09:19:38.707
+Unexpected IOException: 6,1,com.javademo.cases.testDiscover,testAccaAllLive(com.javademo.cases.testDiscover),null,null,null
+
+
+# Created on 2018-10-23T09:19:38.713
+Unexpected IOException: 5,1,com.javademo.cases.testDiscover,testAccaTeacher(com.javademo.cases.testDiscover),com.javademo.cases.testDiscover,null,null
+
+
+# Created on 2018-10-23T09:19:38.849
+Unexpected IOException with stream: ----->1. 进入 getConnection <----------
+
+
+# Created on 2018-10-23T09:19:38.863
+Unexpected IOException with stream: 2018-10-23 09:19:38 Request:http://localhost:3456/wd/hub/session/e6b657ef-4f32-4af8-842c-5f2c6db0b8a7/window/current/size
+
+
+# Created on 2018-10-23T09:19:38.882
+Unexpected IOException with stream: 2018-10-23 09:19:38 Response:{"status":0,"value":{"height":1184,"width":768},"sessionId":"e6b657ef-4f32-4af8-842c-5f2c6db0b8a7"}
+
+
+# Created on 2018-10-23T09:19:38.884
+Unexpected IOException with stream: 2018-10-23 09:19:38 Request:http://localhost:3456/wd/hub/session/e6b657ef-4f32-4af8-842c-5f2c6db0b8a7/actions:{"actions":[{"duration":0.05,"type":"drag","fromX":758,"toX":758,"fromY":1084,"toY":100}]}
+
+
